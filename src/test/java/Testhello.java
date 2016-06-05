@@ -12,6 +12,6 @@ public class Testhello {
     @Test
     public void test2(){
         Hello h = new Hello();
-        assert h.getStr().equals("Hello world");
+        assert h.getStr().equals("Helloworld");
     }
 }
