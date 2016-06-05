@@ -3,4 +3,8 @@
  */
 public class Hello {
     public String st = "Hello";
+
+    public String getStr (){
+        return st+"world";
+    }
 }

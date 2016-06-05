@@ -9,4 +9,9 @@ public class Testhello {
       Hello h = new Hello();
         assert h.st.equals("Hello");
     }
+    @Test
+    public void test2(){
+        Hello h = new Hello();
+        assert h.getStr().equals("Hello  world");
+    }
 }
